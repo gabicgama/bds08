@@ -1,0 +1,51 @@
+.sales-container {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.total-sales-container {
+  margin-left: 15px;
+  margin-bottom: 50px;
+}
+
+.total-sales {
+  font-size: 36px;
+  color: var(--blue-color);
+}
+
+.label-sales {
+  color: var(--grey-color);
+  font-size: 18px;
+}
+
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+.apexcharts-legend.apexcharts-align-center {
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .total-sales-container {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sales-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 65px 80px 65px 40px;
+  }
+
+  .total-sales-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
